@@ -43,4 +43,17 @@ void main() {
 
 # Penjelasan Program
 
-## jhhd
+## 1. Import Library
+
+```dart
+import 'dart:ui';
+import 'package:flutter/material.dart';
+```
+
+**a. `import 'dart:ui';`**
+
+Library dart:ui digunakan untuk mengakses fitur antarmuka dasar seperti warna, ukuran, dan rendering grafis. Dalam kode ini, library tersebut membantu dalam penggunaan Color untuk mengatur warna komponen UI.
+
+**b. `import 'package:flutter/material.dart';`**
+
+Library material.dart merupakan library utama Flutter yang menyediakan komponen UI berdasarkan Material Design dari Google. Komponen seperti AppBar, Scaffold, Text, Icon, FloatingActionButton, dan lainnya berasal dari library ini.
