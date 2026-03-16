@@ -111,3 +111,54 @@ backgroundColor: const Color.fromARGB(255, 233, 95, 4)
 Digunakan untuk mengatur warna latar belakang AppBar menggunakan format ARGB (Alpha, Red, Green, Blue).
 
 **title**
+
+```dart
+title: const Text('Perangkat Bergerak App')
+```
+
+Digunakan untuk menampilkan judul aplikasi pada AppBar.
+
+## 5. Body Aplikasi
+
+```dart
+body: Center(
+```
+
+**`body`**
+
+Properti body pada Scaffold digunakan untuk menampilkan isi utama dari halaman aplikasi.
+
+**`Center`**
+
+Widget Center digunakan untuk menempatkan widget anak tepat di tengah layar baik secara horizontal maupun vertikal.
+
+## 6. Widget Text
+
+```dart
+child: Text(
+  'Halo, Selamat Datang di Perangkat Bergerak App!',
+```
+
+Widget Text digunakan untuk menampilkan tulisan pada layar aplikasi.
+
+## 7. Pengaturan Style Text
+
+```dart
+style: TextStyle(
+  fontSize: 30,
+  fontWeight: FontWeight.bold,
+  letterSpacing: 3,
+  color: Colors.blueAccent,
+),
+```
+
+Widget TextStyle digunakan untuk mengatur tampilan teks.
+
+Penjelasan masing-masing properti:
+
+| Properti      | Fungsi                     |
+| ------------- | -------------------------- |
+| fontSize      | Mengatur ukuran teks       |
+| fontWeight    | Mengatur ketebalan teks    |
+| letterSpacing | Mengatur jarak antar huruf |
+| color         | Mengatur warna teks        |
