@@ -162,3 +162,38 @@ Penjelasan masing-masing properti:
 | fontWeight    | Mengatur ketebalan teks    |
 | letterSpacing | Mengatur jarak antar huruf |
 | color         | Mengatur warna teks        |
+
+Pada kode ini teks dibuat besar, tebal, berwarna biru, dan memiliki jarak antar huruf lebih lebar agar terlihat lebih jelas.
+
+## 8. Floating Action Button
+
+```dart
+floatingActionButton: FloatingActionButton(
+```
+
+Widget FloatingActionButton (FAB) adalah tombol aksi utama yang biasanya berada di pojok kanan bawah aplikasi.
+
+**Ikon Tombol**
+
+```dart
+child: const Icon(Icons.add),
+```
+
+Menampilkan ikon tambah (+) pada tombol menggunakan widget Icon.
+
+**Warna Tombol**
+
+```dart
+backgroundColor: const Color.fromARGB(255, 233, 95, 4),
+```
+
+Digunakan untuk mengatur warna latar tombol agar sama dengan warna AppBar.
+
+**Fungsi Ketika Tombol Ditekan**
+
+```dart
+onPressed: () {}
+```
+
+Properti onPressed berisi fungsi yang akan dijalankan ketika tombol ditekan.
+Pada kode ini fungsi masih kosong sehingga tombol belum memiliki aksi.
