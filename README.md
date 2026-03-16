@@ -8,7 +8,7 @@
 
 # Kode Program
 
-```
+```dart
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -57,3 +57,57 @@ Library dart:ui digunakan untuk mengakses fitur antarmuka dasar seperti warna, u
 **b. `import 'package:flutter/material.dart';`**
 
 Library material.dart merupakan library utama Flutter yang menyediakan komponen UI berdasarkan Material Design dari Google. Komponen seperti AppBar, Scaffold, Text, Icon, FloatingActionButton, dan lainnya berasal dari library ini.
+
+## 2. Fungsi Utama Program
+
+```dart
+void main() {
+  runApp(MaterialApp(
+```
+
+`void main()`
+Fungsi main() adalah titik awal eksekusi dari aplikasi Flutter. Saat aplikasi dijalankan, sistem akan memulai dari fungsi ini.
+
+`runApp()`
+Fungsi runApp() digunakan untuk menjalankan aplikasi Flutter dengan menampilkan widget utama ke layar.
+
+`MaterialApp`
+Widget MaterialApp digunakan sebagai kerangka dasar aplikasi yang menerapkan konsep Material Design. Widget ini biasanya digunakan untuk mengatur tema, navigasi, dan struktur dasar aplikasi.
+
+## 3. Widget Scaffold
+
+```dart
+home: Scaffold(
+```
+
+Widget Scaffold berfungsi sebagai struktur dasar tampilan aplikasi. Scaffold menyediakan layout standar aplikasi seperti:
+- AppBar (bagian atas aplikasi)
+
+- Body (isi utama aplikasi)
+
+- FloatingActionButton (tombol aksi utama)
+
+Penggunaan Scaffold memudahkan developer dalam membuat tampilan aplikasi yang konsisten.
+
+## 4. AppBar
+
+```dart
+appBar: AppBar(
+  backgroundColor: const Color.fromARGB(255, 233, 95, 4),
+  title: const Text('Perangkat Bergerak App'),
+),
+```
+
+**Fungsi AppBar**
+Widget AppBar digunakan untuk menampilkan bagian header atau bar di bagian atas aplikasi.
+
+**Penjelasan komponennya**
+backgroundColor
+
+```dart
+backgroundColor: const Color.fromARGB(255, 233, 95, 4)
+```
+
+Digunakan untuk mengatur warna latar belakang AppBar menggunakan format ARGB (Alpha, Red, Green, Blue).
+
+**title**
